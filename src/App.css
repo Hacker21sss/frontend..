@@ -1,0 +1,208 @@
+/* styles.css */
+*{
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+.cccc {
+  background: linear-gradient(#f5f4f1, #c9d15c);
+  min-width: 100%;
+
+
+}
+
+.logoo img {
+  width: 30%;
+}
+
+.container logoo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ensure the logo container takes up full height */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #f5f4f1;
+}
+
+.logoo img {
+  width: 400px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/*body*/
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.image-wrapper2 {
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+  left: 1rem;
+}
+
+@media (max-width: 800px) {
+  .image-wrapper2 {
+    width: 100%;
+    padding: 0;
+    left: 0;
+  }
+}
+
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.paragraphs-wrapper {
+  margin-bottom: 10px; /* Adjust as needed */
+  text-align: left; /* Left-align the paragraphs */
+}
+
+.paragraphs-wrapper ul {
+  list-style-type: disc; /* Set the bullet style */
+  padding-left: 20px; /* Add some left padding */
+}
+
+/*fffff*/
+
+.section2 {
+  margin-top: 20px; /* Adjust as needed */
+  text-align: center; /* Center the content within the section */
+}
+
+.section2 p {
+  margin-bottom: 20px; /* Add some space between paragraphs and the image */
+}
+
+.aaa {
+  max-width: 65%; /* Limit the image width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure the image is a block element */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+p {
+  max-width: 100%;
+}
+
+.bbb {
+  max-width: 100%;
+  text-align: left;
+  
+}
+footer {
+  background-color: #f71010;
+  color: white;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 5px; /* Decrease padding */
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-section {
+  margin-bottom: 10px; /* Decrease margin-bottom */
+  line-height: 1; /* Decrease line-height */
+}
+
+
+.footer-section p {
+  color: #ccc;
+  margin-left: 15px; /* Decrease margin-left */
+}
+
+/* Add media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column; /* Change flex direction to column */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .footer-section {
+    margin-bottom: 5px; /* Decrease margin-bottom */
+    line-height: 1; /* Decrease line-height */
+  }
+
+  .footer-section p {
+    margin-left: 0; /* Remove left margin for paragraphs */
+    text-align: center;
+    margin-bottom: 50px; /* Center paragraphs */
+  }
+}
+
+
+/* styles.css */
+.last-para {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.ddd {
+  text-align: center;
+}
+
+hr {  
+  height: 1px;  
+  background-color: red;  
+  border: none;  
+}
+.App{
+  margin: 20px;
+}
+
+
+.footer-section i {
+  margin-right: 100px;
+}
+.image1{
+  width:auto;
+  height:38rem;
+}
+.middle-text{
+  font-weight: bold;
+}
+.last-para{
+  padding-top: 1rem;
+}
+.ddd{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+
+}
+a{
+  font-weight: bold;
+}
+.paragraphs-wrapper p{
+font-weight: bold;
+padding-bottom: 1rem;
+}
+
+.footer-section i {
+  margin-right: 24px;
+  font-size: 24px;
+  margin-top: 20px; 
+  
+  
+}
+.footer-section a{
+  font-weight: bold;
+}
+
+
+
