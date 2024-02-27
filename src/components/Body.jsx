@@ -42,8 +42,9 @@ const Body = () => {
             <p>C.R.L. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS</p>
           </div>
 
-          <p className='ddd'>CHEMICALS & PROCESS | POWER WATER & WASTE | WATER OILS & GAS | PHARMA SUGARS & DISTILLERIES | PAPER & PULP | MARINE & DEFENCE | METAL & MINING | FOOD & BEVERAGE | PETROCHEMICAL & REFINERIES | SOLAR | BUILDING | HVAC | FIRE FIGHTING | AGRICULTURE & RESIDENTIAL</p>
+          <p className='ddd'>CHEMICALS & PROCESS <span>|</span> POWER WATER & WASTE <span>|</span> WATER OILS & GAS <span>|</span> PHARMA SUGARS & DISTILLERIES <span>|</span> PAPER & PULP <span>|</span> MARINE & DEFENCE <span>|</span> METAL & MINING <span>|</span> FOOD & BEVERAGE <span>|</span> PETROCHEMICAL & REFINERIES <span>|</span> SOLAR <span>|</span> BUILDING <span>|</span> HVAC <span>|</span> FIRE FIGHTING <span>|</span> AGRICULTURE & RESIDENTIAL</p>
         </div>
+        
       </div>
     </div>
   );
